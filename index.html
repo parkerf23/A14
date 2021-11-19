@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cookie's</title>
+    <title>Cookie Data</title>
     <script>
 
         function setCookie(cname, cvalue) {
@@ -30,7 +30,7 @@
         function checkCookie() {
             let user = getCookie("username");
             if (user != "") {
-                alert("OH WOW your back again! " + user);
+                alert("THANKS FOR YOUR DATA " + user);
             } else {
                 user = prompt("HEY enter your name NOW:", "");
                 if (user != "" && user != null) {
@@ -43,12 +43,26 @@
 
 <header>
     <h1>Cookie being Displayed</h1>
+    <h3>By: Parker Francis</h3>
 
 </header>
 
 
 <body onload="checkCookie()">
+
     <h2>Simple Cookie's at Work!</h2>
+    <img src="images/200.gif">
+
+
+    <h2>Now your data is all mine!!!!!</h2>
+    <img src="images/myData.gif">
+
+
 
 </body>
+
+<footer>
+    <p>&copy; 2021, Parker Francis, N.J.I.T, All Rights Reserved, Privacy Policy</p>
+</footer>
+
 </html>
