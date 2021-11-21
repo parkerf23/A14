@@ -1,0 +1,35 @@
+* {
+    background-color: aquamarine;
+}
+
+h1 {
+    font-weight: bold;
+    color: crimson;
+}
+
+h2 {
+    font-weight: bold;
+    color:crimson ;
+}
+
+h3 {
+    font-weight: bold;
+    color: crimson;
+}
+
+footer p {
+    font-weight: bold;
+    color: crimson;
+}
+
+#hCen {
+    text-align: center;
+}
+
+#bCen {
+    text-align: center;
+}
+
+#fCen {
+    text-align: center;
+}
